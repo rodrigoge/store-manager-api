@@ -8,6 +8,8 @@ import java.time.OffsetDateTime;
 
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class PeopleDTO extends RepresentationModel<PeopleDTO> {
 
     private Long key;
